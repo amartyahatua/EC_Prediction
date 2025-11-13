@@ -119,7 +119,7 @@ if __name__ == "__main__":
     output_file = download_uniprot_ec_data(
         ec_numbers=ec_numbers,
         max_per_ec=100,
-        output_file='sample_ec_data.csv'
+        output_file='../sample_ec_data.csv'
     )
     
     print("\nNow you can run the analysis:")
