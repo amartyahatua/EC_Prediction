@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f3439c7-a594-4936-9be9-3d0637a6751e" name="Changes" comment="MI for ESM 2: Save best layer and analyse the resuls" />
+    <list default="true" id="0f3439c7-a594-4936-9be9-3d0637a6751e" name="Changes" comment="PLM for SAE interpretation">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi_layer_esm/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/mi_layer_esm/driver.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -331,7 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765686161014</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Delete">
+      <option name="closed" value="true" />
+      <created>1765689335509</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765689335509</updated>
+    </task>
+    <task id="LOCAL-00017" summary="PLM for SAE interpretation">
+      <option name="closed" value="true" />
+      <created>1765689433246</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765689433246</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -352,7 +372,9 @@
     <MESSAGE value="MI for ESM 2" />
     <MESSAGE value="MI for ESM 2: Save best layer" />
     <MESSAGE value="MI for ESM 2: Save best layer and analyse the resuls" />
-    <option name="LAST_COMMIT_MESSAGE" value="MI for ESM 2: Save best layer and analyse the resuls" />
+    <MESSAGE value="Delete" />
+    <MESSAGE value="PLM for SAE interpretation" />
+    <option name="LAST_COMMIT_MESSAGE" value="PLM for SAE interpretation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

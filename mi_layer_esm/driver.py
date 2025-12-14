@@ -9,7 +9,7 @@ from analyze.sae_integration import *
 from mi_sae_esm.sae_esm import train_sae_pipeline
 
 os.environ["WANDB_DISABLED"] = "true"
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 
 RANDOM_STATE_SEED = 1829873
 np.random.seed(RANDOM_STATE_SEED)
