@@ -599,7 +599,7 @@ def train_linear_probe(representations, labels, num_classes, device='cpu',
     return best_acc
 
 
-@torch.no_grad()
+# @torch.no_grad()
 def compute_loss_recovered(sae, representations, labels, num_classes, device='cpu'):
     """
     Compute loss recovered:
@@ -609,12 +609,13 @@ def compute_loss_recovered(sae, representations, labels, num_classes, device='cp
     sae_device = next(sae.parameters()).device
 
     # Get SAE reconstructions
-    x = torch.FloatTensor(representations).to(sae_device)
-    reconstructed = []
-    for i in range(0, len(x), 512):
-        recon, _ = sae(x[i:i + 512])
-        reconstructed.append(recon.cpu().numpy())
-    reconstructed = np.vstack(reconstructed)
+    with torch.no_grad():
+        x = torch.FloatTensor(representations).to(sae_device)
+        reconstructed = []
+        for i in range(0, len(x), 512):
+            recon, _ = sae(x[i:i + 512])
+            reconstructed.append(recon.cpu().numpy())
+        reconstructed = np.vstack(reconstructed)
 
     # Random baseline
     random_reprs = representations.copy()
